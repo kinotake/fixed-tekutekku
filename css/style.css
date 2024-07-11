@@ -121,6 +121,7 @@
 /* 詳細条件（左の検索フォームの指定） */
 @media screen and (max-width: 999px) {
     .header_middle {
+        margin-top: 2vw;
         font-size: 6vw;
     }
 }
@@ -149,6 +150,7 @@
 
 @media screen and (max-width: 999px) {
     .date_all_contents {
+        margin-top: 2vw;
         height: 35vw;
         width: 90vw;
     }
@@ -177,6 +179,7 @@
 
 @media screen and (max-width: 999px) {
     .check_in {
+        margin-top: 1vw;
         display: inline-block;
         margin-left: 15vw;
         height: 4vw;
@@ -190,6 +193,7 @@
 
 @media screen and (max-width: 999px) {
     .check_out {
+        margin-top: 1vw;
         display: inline-block;
         margin-left: 15vw;
         height: 4vw;
@@ -214,11 +218,11 @@
 
 @media screen and (max-width: 999px) {
     .date_form::before {
-        background-size: 12vw 12vw;
+        background-size: 10vw 10vw;
         height: 20vw;
         width: 30vw;
-        right: 53vw;
-        top: -5vw;
+        right: 48vw;
+        top: -0.1vw;
     }
 }
 
@@ -233,8 +237,7 @@
 
 @media screen and (max-width: 999px) {
     .date_form {
-        margin-top: 3vw;
-        height: 13vw;
+        height: 11vw;
         width: 80vw;
     }
 }
@@ -253,6 +256,7 @@
     .date_form[type="date"]::-webkit-calendar-picker-indicator {
         height: 12vw;
         width: 12vw;
+        margin-left: 2vw;
     }
 }
 
@@ -267,7 +271,7 @@
 @media screen and (max-width: 999px) {
     .date_form[type="date"]::-webkit-datetime-edit {
         font-size: 6vw;
-        margin-left: 10vw;
+        margin-left: 15vw;
     }
 }
 
@@ -293,6 +297,8 @@
 
 @media screen and (max-width: 999px) {
     .select_content_label {
+        margin-top: 4vw;
+        margin-bottom: 2vw;
         font-size: 4vw;
     }
 }
@@ -374,16 +380,20 @@ details[open] .open_icon {
 
 @media screen and (max-width: 999px) {
     .detail_form_button {
-        height: 10vw;
-        font-size: 4vw;
+        height: 15vw;
         width: 90vw;
+        font-size: 4vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
     }
 }
 
 /* ラジオボタン・チェックボックスに対するCSS */
 @media screen and (max-width: 999px) {
     .accordion_header {
+        margin-top: 5vw;
         margin-left: 2vw;
+        margin-bottom: 5vw;
         font-size: 4vw;
     }
 }
@@ -394,8 +404,10 @@ details[open] .open_icon {
 
 @media screen and (max-width: 999px) {
     .radio {
-        margin-top: 2vw;
-        transform: scale(3.5);
+        display: inline-block;
+        height: 4vw;
+        width: 4vw;
+        margin-top: 1vw;
         margin-left: 3vw;
     }
 }
@@ -406,8 +418,9 @@ details[open] .open_icon {
 
 @media screen and (max-width: 999px) {
     .radio_label {
-        margin-top: 2vw;
+        display: inline-block;
         margin-left: 2vw;
+        height: 7vw;
         font-size: 4vw;
     }
 }
